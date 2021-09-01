@@ -1,7 +1,3 @@
-#Write code to print out the phrase “Hello World”.
-
-print("Hello World")
-
 #This first activity is designed 
 #to get you started writing some simple programs in Python 
 #using the turtle graphics system. 
@@ -196,3 +192,25 @@ my_turtle.down()
 for x in range(sides):
     my_turtle.forward(length)
     my_turtle.left(exteriorAngle)
+
+    
+
+#Write a program to draw a face of a clock that looks something like this:
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("#9ced91")
+buster = turtle.Turtle()
+buster.pensize(2)
+buster.color("blue")
+buster.speed(10)
+buster.shape("turtle")
+buster.penup()
+for x in range(12):
+    buster.forward(75)
+    buster.pendown()
+    buster.forward(10)
+    buster.penup()
+    buster.forward(15)
+    buster.stamp()
+    buster.backward(100)
+    buster.left(30)
