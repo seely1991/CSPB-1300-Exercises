@@ -109,7 +109,7 @@ my_turtle.forward(length)
 
 
 #Ask the user for a side length and then draw an octagon (8-sided)
-length = input("Length of triangle?")
+length = input("Length of side?")
 length = int(length)
 
 import turtle
@@ -134,7 +134,7 @@ my_turtle.forward(length)         # draw a green line of length 50
 
 
 #Last question redone to be scalable
-length = input("Length of triangle?")
+length = input("Length of side?")
 length = int(length)
 
 sides = input("how many sides?")
